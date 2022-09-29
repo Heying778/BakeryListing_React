@@ -28,6 +28,9 @@ const RecipeList = () => {
 
             }
         ]
+
+        const total_rating = cakes.reduce((total,cakes) => (total + cakes.rating), 0) / cakes.length;
+        
         return(
             <>
                 <section>
@@ -50,7 +53,10 @@ const RecipeList = () => {
                 </section>
 
                 <section>
-
+                    <div>
+                        <h2>Average Rating: total_rating</h2>
+                    </div>
+                    
                 </section>
             </>
         )

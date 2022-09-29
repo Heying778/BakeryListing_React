@@ -4,9 +4,9 @@ const NavBar = () => {
         
         <nav>
             <ul>
-                <li>Home</li>
-                <li>Tasty Cakes</li>
-                <li>Contact</li>
+                <li><a href = "#">Home</a></li>
+                <li><a href = "#">Tasty Cakes</a></li>
+                <li><a href = "#">Contact</a></li>
             </ul>
         </nav>
         
